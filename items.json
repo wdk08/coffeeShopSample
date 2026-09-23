@@ -1,0 +1,50 @@
+{
+    "espresso": {
+        "name": "Espresso",
+        "description": "A strong and bold coffee made by forcing hot water through finely-ground coffee beans.",
+        "price": 3.00,
+        "image": "assets/espresso.jpg",
+        "healthDetails": {
+            "calories": 5,
+            "fat": 0,
+            "protein": 0,
+            "allergens": []
+        }
+    },
+    "cappuccino": {
+        "name": "Cappuccino",
+        "description": "A coffee drink made with steamed milk foam and a shot of espresso.",
+        "price": 4.00,
+        "image": "assets/cappuccino.jpg",
+        "healthDetails": {
+            "calories": 80,
+            "fat": 4,
+            "protein": 4,
+            "allergens": ["Milk"]
+        }
+    },
+    "latte": {
+        "name": "Latte",
+        "description": "A coffee drink made with steamed milk and a shot of espresso.",
+        "price": 4.50,
+        "image": "assets/latte.jpg",
+        "healthDetails": {
+            "calories": 120,
+            "fat": 5,
+            "protein": 6,
+            "allergens": ["Milk"]
+        }
+    },
+    "mocha": {
+        "name": "Mocha",
+        "description": "A coffee drink made with steamed milk, a shot of espresso, and chocolate syrup.",
+        "price": 5.00,
+        "image": "assets/mocha.jpg",
+        "healthDetails": {
+            "calories": 200,
+            "fat": 8,
+            "protein": 6,
+            "allergens": ["Milk"]
+        }
+    }
+}
